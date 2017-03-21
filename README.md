@@ -1,5 +1,7 @@
 # ReboucasMask
 
+### Docs
+[![Language-pt_BR](https://img.shields.io/badge/pt__BR-100%25-green.svg)](https://github.com/GabrielReboucas/reboucasMask/blob/master/LEIA-ME.md)
 
 ## Install the package: 
  ```javascript

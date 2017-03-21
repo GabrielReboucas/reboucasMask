@@ -1,0 +1,176 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'publish' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/home/gabriel/Documentos/projetos/reboucas-mask',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /home/gabriel/.npm/reboucas-mask/1.0.3/package.tgz not in flight; packing
+9 verbose correctMkdir /home/gabriel/.npm correctMkdir not in flight; initializing
+10 info lifecycle reboucas-mask@1.0.3~prepublish: reboucas-mask@1.0.3
+11 silly lifecycle reboucas-mask@1.0.3~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ '/home/gabriel/.npm/reboucas-mask/1.0.3/package.tgz',
+12 verbose tar pack   '/home/gabriel/Documentos/projetos/reboucas-mask' ]
+13 verbose tarball /home/gabriel/.npm/reboucas-mask/1.0.3/package.tgz
+14 verbose folder /home/gabriel/Documentos/projetos/reboucas-mask
+15 verbose addLocalTarball adding from inside cache /home/gabriel/.npm/reboucas-mask/1.0.3/package.tgz
+16 verbose correctMkdir /home/gabriel/.npm correctMkdir not in flight; initializing
+17 silly cache afterAdd reboucas-mask@1.0.3
+18 verbose afterAdd /home/gabriel/.npm/reboucas-mask/1.0.3/package/package.json not in flight; writing
+19 verbose correctMkdir /home/gabriel/.npm correctMkdir not in flight; initializing
+20 verbose afterAdd /home/gabriel/.npm/reboucas-mask/1.0.3/package/package.json written
+21 silly publish { _args:
+21 silly publish    [ [ [Object],
+21 silly publish        '/home/gabriel/Documentos/projetos/compnewRetaguarda' ],
+21 silly publish      [ [Object],
+21 silly publish        '/home/gabriel/Documentos/projetos/compnewRetaguarda' ] ],
+21 silly publish   _from: '.',
+21 silly publish   _id: 'reboucas-mask@1.0.3',
+21 silly publish   _inCache: true,
+21 silly publish   _location: '/reboucas-mask',
+21 silly publish   _nodeVersion: '6.10.0',
+21 silly publish   _npmOperationalInternal:
+21 silly publish    { host: 'packages-12-west.internal.npmjs.com',
+21 silly publish      tmp: 'tmp/reboucas-mask-1.0.3.tgz_1490109918497_0.9368993733078241' },
+21 silly publish   _npmUser:
+21 silly publish    { name: 'gabrielreboucas',
+21 silly publish      email: 'reboucasgabriel@hotmail.com' },
+21 silly publish   _npmVersion: '3.10.10',
+21 silly publish   _phantomChildren: {},
+21 silly publish   _requested:
+21 silly publish    { raw: 'reboucas-mask',
+21 silly publish      scope: null,
+21 silly publish      escapedName: 'reboucas-mask',
+21 silly publish      name: 'reboucas-mask',
+21 silly publish      rawSpec: '',
+21 silly publish      spec: 'latest',
+21 silly publish      type: 'tag' },
+21 silly publish   _requiredBy: [ '#USER', '/' ],
+21 silly publish   _resolved: 'https://registry.npmjs.org/reboucas-mask/-/reboucas-mask-1.0.3.tgz',
+21 silly publish   _shasum: '88311c48f87721b793ed545b0ec73b15f8c192de',
+21 silly publish   _shrinkwrap: null,
+21 silly publish   _spec: 'reboucas-mask',
+21 silly publish   _where: '/home/gabriel/Documentos/projetos/compnewRetaguarda',
+21 silly publish   dependencies:
+21 silly publish    { '@angular/common': '^2.4.0',
+21 silly publish      '@angular/compiler': '^2.4.0',
+21 silly publish      '@angular/core': '^2.4.0',
+21 silly publish      '@angular/forms': '^2.4.0',
+21 silly publish      '@angular/http': '^2.4.0',
+21 silly publish      '@angular/platform-browser': '^2.4.0',
+21 silly publish      '@angular/platform-browser-dynamic': '^2.4.0',
+21 silly publish      '@angular/router': '^3.4.0',
+21 silly publish      'core-js': '^2.4.1',
+21 silly publish      rxjs: '^5.1.0',
+21 silly publish      'zone.js': '^0.7.6' },
+21 silly publish   description: 'This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.1.',
+21 silly publish   devDependencies:
+21 silly publish    { '@angular/cli': '1.0.0-rc.1',
+21 silly publish      '@angular/compiler-cli': '^2.4.0',
+21 silly publish      '@types/jasmine': '2.5.38',
+21 silly publish      '@types/node': '~6.0.60',
+21 silly publish      codelyzer: '~2.0.0',
+21 silly publish      gulp: '^3.9.1',
+21 silly publish      'gulp-clean': '^0.3.2',
+21 silly publish      'jasmine-core': '~2.5.2',
+21 silly publish      'jasmine-spec-reporter': '~3.2.0',
+21 silly publish      karma: '~1.4.1',
+21 silly publish      'karma-chrome-launcher': '~2.0.0',
+21 silly publish      'karma-cli': '~1.0.1',
+21 silly publish      'karma-coverage-istanbul-reporter': '^0.2.0',
+21 silly publish      'karma-jasmine': '~1.1.0',
+21 silly publish      'karma-jasmine-html-reporter': '^0.2.2',
+21 silly publish      protractor: '~5.1.0',
+21 silly publish      'ts-node': '~2.0.0',
+21 silly publish      tslint: '~4.4.2',
+21 silly publish      typescript: '~2.0.0' },
+21 silly publish   directories: {},
+21 silly publish   dist:
+21 silly publish    { shasum: '45ddefad97610339f66b9e8f5aa82be2d2c6bd1f',
+21 silly publish      tarball: 'https://registry.npmjs.org/reboucas-mask/-/reboucas-mask-1.0.3.tgz' },
+21 silly publish   gitHead: '69a04e3600a623be691a2167e72a379e3e33a9c7',
+21 silly publish   license: 'MIT',
+21 silly publish   main: 'src/app/index.js',
+21 silly publish   maintainers:
+21 silly publish    [ { name: 'gabrielreboucas',
+21 silly publish        email: 'reboucasgabriel@hotmail.com' },
+21 silly publish      { name: 'leandroreboucas',
+21 silly publish        email: 'contato@leandroreboucas.com' } ],
+21 silly publish   name: 'reboucas-mask',
+21 silly publish   optionalDependencies: {},
+21 silly publish   private: false,
+21 silly publish   readme: 'ERROR: No README data found!',
+21 silly publish   scripts:
+21 silly publish    { e2e: 'protractor',
+21 silly publish      lint: 'tslint "src/**/*.ts"',
+21 silly publish      pree2e: 'webdriver-manager update',
+21 silly publish      start: 'ng serve',
+21 silly publish      test: 'ng test' },
+21 silly publish   version: '1.0.3' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name reboucas-mask
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'reboucas-mask',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'reboucas-mask',
+26 silly mapToRegistry   name: 'reboucas-mask',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/reboucas-mask
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading /home/gabriel/.npm/reboucas-mask/1.0.3/package.tgz
+30 verbose request uri https://registry.npmjs.org/reboucas-mask
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 13:51:05
+33 verbose request using bearer token for auth
+34 verbose request id 5d3ecc8a120f95d6
+35 http request PUT https://registry.npmjs.org/reboucas-mask
+36 http 403 https://registry.npmjs.org/reboucas-mask
+37 verbose headers { 'content-type': 'application/json',
+37 verbose headers   'cache-control': 'max-age=300',
+37 verbose headers   'content-length': '95',
+37 verbose headers   'accept-ranges': 'bytes',
+37 verbose headers   date: 'Tue, 21 Mar 2017 16:51:06 GMT',
+37 verbose headers   via: '1.1 varnish',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'x-served-by': 'cache-gru7126-GRU',
+37 verbose headers   'x-cache': 'MISS',
+37 verbose headers   'x-cache-hits': '0',
+37 verbose headers   'x-timer': 'S1490115065.594873,VS0,VE988',
+37 verbose headers   vary: 'Accept-Encoding' }
+38 verbose request invalidating /home/gabriel/.npm/registry.npmjs.org/reboucas-mask on PUT
+39 error publish Failed PUT 403
+40 verbose stack Error: "You cannot publish over the previously published version 1.0.3." : reboucas-mask
+40 verbose stack     at makeError (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+40 verbose stack     at CachingRegistryClient.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+40 verbose stack     at Request._callback (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+40 verbose stack     at Request.self.callback (/usr/lib/node_modules/npm/node_modules/request/request.js:187:22)
+40 verbose stack     at emitTwo (events.js:106:13)
+40 verbose stack     at Request.emit (events.js:191:7)
+40 verbose stack     at Request.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+40 verbose stack     at emitOne (events.js:96:13)
+40 verbose stack     at Request.emit (events.js:188:7)
+40 verbose stack     at IncomingMessage.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:969:12)
+41 verbose statusCode 403
+42 verbose pkgid reboucas-mask
+43 verbose cwd /home/gabriel/Documentos/projetos/reboucas-mask
+44 error Linux 4.8.0-41-generic
+45 error argv "/usr/bin/nodejs" "/usr/bin/npm" "publish"
+46 error node v6.10.0
+47 error npm  v3.10.10
+48 error code E403
+49 error "You cannot publish over the previously published version 1.0.3." : reboucas-mask
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]

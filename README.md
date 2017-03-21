@@ -4,7 +4,7 @@
   `npm install reboucas-mask --save`
 
 ## Import reboucas-mask Module:
-   `<b><p style="color: black">import<p/></b> { ReboucasMaskModule } from './reboucasMask/reboucasMask.module';`
+   `**import** { ReboucasMaskModule } from './reboucasMask/reboucasMask.module';`
 
 ## Import module dependency:
    ` imports: [`<br>

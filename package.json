@@ -1,0 +1,126 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "reboucas-mask@0.0.0",
+        "scope": null,
+        "escapedName": "reboucas-mask",
+        "name": "reboucas-mask",
+        "rawSpec": "0.0.0",
+        "spec": "0.0.0",
+        "type": "version"
+      },
+      "/home/gabriel/Documentos/projetos/compnewRetaguarda"
+    ],
+    [
+      {
+        "raw": "reboucas-mask",
+        "scope": null,
+        "escapedName": "reboucas-mask",
+        "name": "reboucas-mask",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/home/gabriel/Documentos/projetos/compnewRetaguarda"
+    ]
+  ],
+  "_from": "reboucas-mask",
+  "_id": "reboucas-mask@1.0.3",
+  "_inCache": true,
+  "_location": "/reboucas-mask",
+  "_nodeVersion": "6.10.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/reboucas-mask-1.0.3.tgz_1490109918497_0.9368993733078241"
+  },
+  "_npmUser": {
+    "name": "gabrielreboucas",
+    "email": "reboucasgabriel@hotmail.com"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "reboucas-mask",
+    "scope": null,
+    "escapedName": "reboucas-mask",
+    "name": "reboucas-mask",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/reboucas-mask/-/reboucas-mask-1.0.3.tgz",
+  "_shasum": "45ddefad97610339f66b9e8f5aa82be2d2c6bd1f",
+  "_shrinkwrap": null,
+  "_spec": "reboucas-mask",
+  "_where": "/home/gabriel/Documentos/projetos/compnewRetaguarda",
+  "dependencies": {
+    "@angular/common": "^2.4.0",
+    "@angular/compiler": "^2.4.0",
+    "@angular/core": "^2.4.0",
+    "@angular/forms": "^2.4.0",
+    "@angular/http": "^2.4.0",
+    "@angular/platform-browser": "^2.4.0",
+    "@angular/platform-browser-dynamic": "^2.4.0",
+    "@angular/router": "^3.4.0",
+    "core-js": "^2.4.1",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.7.6"
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.1.",
+  "devDependencies": {
+    "@angular/cli": "1.0.0-rc.1",
+    "@angular/compiler-cli": "^2.4.0",
+    "@types/jasmine": "2.5.38",
+    "@types/node": "~6.0.60",
+    "codelyzer": "~2.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "jasmine-core": "~2.5.2",
+    "jasmine-spec-reporter": "~3.2.0",
+    "karma": "~1.4.1",
+    "karma-chrome-launcher": "~2.0.0",
+    "karma-cli": "~1.0.1",
+    "karma-coverage-istanbul-reporter": "^0.2.0",
+    "karma-jasmine": "~1.1.0",
+    "karma-jasmine-html-reporter": "^0.2.2",
+    "protractor": "~5.1.0",
+    "ts-node": "~2.0.0",
+    "tslint": "~4.4.2",
+    "typescript": "~2.0.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "45ddefad97610339f66b9e8f5aa82be2d2c6bd1f",
+    "tarball": "https://registry.npmjs.org/reboucas-mask/-/reboucas-mask-1.0.3.tgz"
+  },
+  "gitHead": "69a04e3600a623be691a2167e72a379e3e33a9c7",
+  "license": "MIT",
+  "main": "src/app/index.js",
+  "maintainers": [
+    {
+      "name": "gabrielreboucas",
+      "email": "reboucasgabriel@hotmail.com"
+    },
+    {
+      "name": "leandroreboucas",
+      "email": "contato@leandroreboucas.com"
+    }
+  ],
+  "name": "reboucas-mask",
+  "optionalDependencies": {},
+  "private": false,
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "e2e": "protractor",
+    "lint": "tslint \"src/**/*.ts\"",
+    "pree2e": "webdriver-manager update",
+    "start": "ng serve",
+    "test": "ng test"
+  },
+  "version": "1.0.3"
+}

@@ -10,7 +10,7 @@
 
 ## Importação reboucas-mask Módulo:
   ```typescript
-  import { ReboucasMaskModule } from './reboucasMask/reboucasMask.module';
+  import { ReboucasMaskModule } from 'reboucas-mask';
   ```
 
 ## Importar dependência do módulo:
